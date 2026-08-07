@@ -1,10 +1,14 @@
 from pathlib import Path
 
-folder = Path(".")
+folders = [
+    "Projects",
+    "Images",
+    "Videos",
+    "Documents",
+    "Downloads"
+]
 
-for index, file in enumerate(folder.iterdir(), start=1):
-    if file.is_file():
-        new_name = f"file_{index}{file.suffix}"
-        file.rename(folder / new_name)
+for folder in folders:
+    Path(folder).mkdir(exist_ok=True)
 
-print("Files renamed successfully.")
+print("Folders created successfully.")
