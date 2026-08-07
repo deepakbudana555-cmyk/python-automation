@@ -1,19 +1,19 @@
 # Python Automation
 
-A collection of practical Python automation scripts designed to simplify repetitive tasks and improve productivity.
+A collection of practical Python automation scripts that simplify repetitive tasks and improve productivity.
 
 ## Features
 
-- 📂 File Organization
+- 📂 File Automation
 - 📄 PDF Utilities
 - 🖼 Image Processing
-- 📊 CSV & Excel Automation
+- 📊 CSV Automation
 - 📁 Folder Management
-- ⚙ Batch Operations
+- ⚡ Batch Processing
 
 ## Project Structure
 
-```
+```text
 python-automation/
 │
 ├── file-tools/
@@ -22,8 +22,8 @@ python-automation/
 ├── csv-tools/
 ├── folder-tools/
 │
-├── README.md
 ├── requirements.txt
+├── README.md
 └── LICENSE
 ```
 
@@ -32,9 +32,15 @@ python-automation/
 - Python 3.10+
 - pip
 
-## Future Plans
+## Getting Started
 
-This repository will continue to grow with practical automation scripts for developers and everyday workflows.
+```bash
+git clone https://github.com/deepakbudana555-cmyk/python-automation.git
+
+cd python-automation
+
+pip install -r requirements.txt
+```
 
 ## License
 
